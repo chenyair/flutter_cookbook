@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_cookbook/animation/animate_a_page_route_transition/main_animate_a_page_route_transition.dart';
-import 'package:flutter_cookbook/animation/animate_a_widget_using_a_physics_simulation/main_animate_a_widget_using_a_physics_simulation.dart';
+import 'package:flutter_cookbook/effects/create_a_scrolling_parallax_effect/main_create_a_scrolling_parallax_effect.dart';
 
 void main() {
   runApp(MyApp());
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: MainAnimateAWidgetUsingAPhysicsSimualtion(),
+      home: MainCreateAScrollingParallaxEffect(),
     );
   }
 }
